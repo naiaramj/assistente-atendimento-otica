@@ -59,3 +59,13 @@ P: Qual a garantia contra defeitos e tratamentos das lentes Kodak?
 R: A CONFIRMAR
 P: Quais documentos são necessários para acionar a garantia Kodak?
 R: Certificado de Garantia da Kodak preenchido, nota fiscal da compra, receituário médico original e as lentes antigas ou danificadas, que são devolvidas ao laboratório para análise técnica.
+
+## Marca: Zeiss | Categoria: garantia
+P: Qual o prazo da garantia de adaptação das lentes Zeiss?
+R: 3 meses a partir da data da compra ou da receita médica. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
+P: Qual a garantia de qualidade e material das lentes Zeiss?
+R: 6 meses contra quebra espontânea e falha na ativação de lentes fotossensíveis.
+P: Qual a garantia contra defeitos e tratamentos das lentes Zeiss?
+R: A CONFIRMAR
+P: Quais documentos são necessários para acionar a garantia Zeiss?
+R: Certificado de Garantia da Zeiss preenchido, nota fiscal da compra, receituário médico original e as lentes antigas ou danificadas, que são devolvidas ao laboratório para análise técnica.
