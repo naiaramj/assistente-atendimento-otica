@@ -69,3 +69,9 @@ P: Qual a garantia contra defeitos e tratamentos das lentes Zeiss?
 R: A CONFIRMAR
 P: Quais documentos são necessários para acionar a garantia Zeiss?
 R: Certificado de Garantia da Zeiss preenchido, nota fiscal da compra, receituário médico original e as lentes antigas ou danificadas, que são devolvidas ao laboratório para análise técnica.
+
+## Marca: Geral | Categoria: devolução
+P: A loja aceita devolução por arrependimento ou insatisfação?
+R: Não. A loja não aceita devolução por insatisfação, por arrependimento nem de produto sem defeito. A política de arrependimento vale para compras online e não para compras feitas em loja física.
+P: O que a loja faz quando o produto tem defeito?
+R: Se o produto estiver com defeito, a loja troca o produto. O reembolso só é feito quando a loja não tem o produto para trocar.

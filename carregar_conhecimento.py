@@ -16,6 +16,8 @@ with open("conhecimento.md", encoding="utf-8") as arquivo:
             parte_marca, parte_categoria = linha.split("|")
             marca = parte_marca.split(":", 1)[1].strip()
             categoria = parte_categoria.split(":", 1)[1].strip()
+            if marca == "Geral":
+                marca = None
 
         elif linha.startswith("P:"):
             pergunta = linha[2:].strip()
