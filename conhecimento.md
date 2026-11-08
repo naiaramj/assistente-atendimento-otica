@@ -75,3 +75,17 @@ P: A loja aceita devolução por arrependimento ou insatisfação?
 R: Não. A loja não aceita devolução por insatisfação, por arrependimento nem de produto sem defeito. A política de arrependimento vale para compras online e não para compras feitas em loja física.
 P: O que a loja faz quando o produto tem defeito?
 R: Se o produto estiver com defeito, a loja troca o produto. O reembolso só é feito quando a loja não tem o produto para trocar.
+
+## Marca: Geral | Categoria: adaptação
+P: Qual o tempo de adaptação das lentes multifocais (progressivas)?
+R: Nos primeiros dias, de 3 a 7 dias. A adaptação habitual leva de 1 a 2 semanas. Casos mais difíceis podem levar de 3 a 4 semanas. Esse prazo é diferente da garantia de adaptação, que é o prazo comercial para trocar a lente.
+P: Por que as lentes multifocais exigem mais tempo de adaptação?
+R: Elas têm zonas de visão diferentes: a superior para longe, a intermediária para computador e distâncias médias, e a inferior para leitura e perto. O cérebro precisa aprender a usar cada região, e o cliente desenvolve os movimentos adequados dos olhos e da cabeça.
+P: Quais sintomas o cliente pode sentir no início do uso de lentes multifocais?
+R: Sensação de tontura ou desequilíbrio, dificuldade em escadas, sensação de distorção nas laterais e dificuldade para encontrar o foco correto.
+P: Qual o tempo de adaptação das lentes de visão simples (monofocais)?
+R: Nos primeiros dias, de 1 a 3 dias. A adaptação habitual leva até 1 semana. Em mudanças significativas de grau, pode levar mais tempo.
+P: Por que a adaptação das lentes de visão simples costuma ser mais rápida?
+R: Elas têm uma única potência óptica, para corrigir a visão a uma determinada distância, de longe ou de perto. Por isso a adaptação tende a ser mais simples.
+P: O que pode fazer a adaptação das lentes de visão simples demorar mais?
+R: Mudança no grau, alteração do eixo do astigmatismo, diferença de grau entre os olhos e mudança no material, na curvatura ou no tamanho da lente.
