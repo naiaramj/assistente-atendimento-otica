@@ -36,3 +36,15 @@ def salvar_historico(pergunta, resposta, encontrou):
     conn.commit()
     conn.close()
     return novo_id
+
+
+def registrar_feedback(historico_id, util):
+    conn = sqlite3.connect(BANCO)
+    cursor = conn.execute(
+        "UPDATE historico SET util = ? WHERE id = ?",
+        (int(util), historico_id),
+    )
+    alterou = cursor.rowcount > 0
+    conn.commit()
+    conn.close()
+    return alterou

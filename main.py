@@ -1,7 +1,13 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from banco import MARCAS, detectar_marca, buscar_conhecimento, salvar_historico
+from banco import (
+    MARCAS,
+    buscar_conhecimento,
+    detectar_marca,
+    registrar_feedback,
+    salvar_historico,
+)
 from ia import responder
 
 app = FastAPI()
@@ -10,6 +16,11 @@ app = FastAPI()
 class Pergunta(BaseModel):
     texto: str
     marca: str | None = None
+
+
+class Feedback(BaseModel):
+    historico_id: int
+    util: bool
 
 
 @app.get("/")
@@ -49,3 +60,9 @@ def perguntar(dados: Pergunta):
         "resposta": resposta,
         "historico_id": historico_id,
     }
+
+
+@app.post("/feedback")
+def feedback(dados: Feedback):
+    registrado = registrar_feedback(dados.historico_id, dados.util)
+    return {"registrado": registrado}
