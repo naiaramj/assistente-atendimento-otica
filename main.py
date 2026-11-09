@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from banco import MARCAS, detectar_marca, buscar_conhecimento
+from banco import MARCAS, detectar_marca, buscar_conhecimento, salvar_historico
+from ia import responder
 
 app = FastAPI()
 
@@ -25,12 +26,26 @@ def perguntar(dados: Pergunta):
             "encontrou": False,
             "resposta": "Preciso saber a marca da lente para achar a regra certa.",
             "marcas": MARCAS,
+            "historico_id": None,
         }
 
     entradas = buscar_conhecimento(marca)
 
+    try:
+        resposta, encontrou = responder(dados.texto, marca, entradas)
+    except Exception:
+        return {
+            "encontrou": False,
+            "marca": marca,
+            "resposta": "O assistente está indisponível no momento. Tente de novo em instantes.",
+            "historico_id": None,
+        }
+
+    historico_id = salvar_historico(dados.texto, resposta, encontrou)
+
     return {
-        "encontrou": True,
+        "encontrou": encontrou,
         "marca": marca,
-        "entradas": entradas,
+        "resposta": resposta,
+        "historico_id": historico_id,
     }

@@ -23,3 +23,16 @@ def buscar_conhecimento(marca):
     ).fetchall()
     conn.close()
     return linhas
+
+
+def salvar_historico(pergunta, resposta, encontrou):
+    conn = sqlite3.connect(BANCO)
+    cursor = conn.execute(
+        "INSERT INTO historico (pergunta, resposta, encontrou_na_base) "
+        "VALUES (?, ?, ?)",
+        (pergunta, resposta, int(encontrou)),
+    )
+    novo_id = cursor.lastrowid
+    conn.commit()
+    conn.close()
+    return novo_id
