@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Assistente de Garantias — Óticas Pontal</title>
+<title>Assistente de Atendimento — Óticas Pontal</title>
 <style>
   :root {
     --azul: #0F5C7A;
@@ -64,6 +64,16 @@
     font-weight: 500; color: var(--azul); cursor: pointer;
   }
   .sugestao:hover { background: var(--azul-claro); }
+  .toggle {
+    display: flex; align-items: center; gap: 8px;
+    min-height: 44px; margin-top: 8px; padding: 0;
+    border: 0; background: none; cursor: pointer;
+    font: inherit; font-size: 13px; font-weight: 600; color: var(--cinza);
+  }
+  .toggle:hover { color: var(--azul); }
+  .toggle .seta { transition: transform 0.15s ease; }
+  .toggle[aria-expanded="false"] .seta { transform: rotate(-90deg); }
+  #sugestoes[hidden] { display: none; }
   #conversa { display: flex; flex-direction: column; gap: 16px; }
   .msg-vendedor {
     align-self: flex-end; max-width: 80%; background: var(--azul); color: #fff;
@@ -126,7 +136,7 @@
     </svg>
   </div>
   <div>
-    <h1>Assistente de Garantias</h1>
+    <h1>Assistente de Atendimento</h1>
     <p>Óticas Pontal · uso interno dos vendedores</p>
   </div>
 </header>
@@ -137,7 +147,10 @@
     <div class="rotulo">Marca da lente</div>
     <div class="chips" id="marcas"></div>
     <div id="bloco-sugestoes" hidden>
-      <div class="rotulo" style="margin-top:16px" id="rotulo-sugestoes">Perguntas sugeridas</div>
+      <button type="button" class="toggle" id="toggle-sugestoes" aria-expanded="true" aria-controls="sugestoes">
+        <svg class="seta" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        <span id="rotulo-sugestoes">Perguntas sugeridas</span>
+      </button>
       <div class="chips" id="sugestoes"></div>
     </div>
   </div>
@@ -165,7 +178,7 @@
     </form>
   </div>
 
-  <p class="nota">As respostas vêm só da base de conhecimento da loja. Se a informação não estiver lá, o assistente avisa em vez de inventar.</p>
+  <p class="nota">Todas as respostas vêm da base de garantias da loja. Quando o assistente não tiver a informação, confirme com o responsável antes de falar com o cliente.</p>
 
 </main>
 
@@ -181,6 +194,16 @@ const elConversa = document.getElementById("conversa");
 const elFormulario = document.getElementById("formulario");
 const elPergunta = document.getElementById("pergunta");
 const elBotao = document.getElementById("botao-enviar");
+const elToggle = document.getElementById("toggle-sugestoes");
+
+function abrirSugestoes(aberto) {
+  elToggle.setAttribute("aria-expanded", String(aberto));
+  elSugestoes.hidden = !aberto;
+}
+
+elToggle.addEventListener("click", function () {
+  abrirSugestoes(elToggle.getAttribute("aria-expanded") === "false");
+});
 
 const SVG_BOT = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F5C7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6.5" cy="14" r="3.5"/><circle cx="17.5" cy="14" r="3.5"/><path d="M10 14h4"/></svg>';
 
@@ -216,7 +239,8 @@ async function carregarSugestoes(marca) {
     const r = await fetch(API + "/sugestoes?marca=" + encodeURIComponent(marca));
     const dados = await r.json();
     elSugestoes.innerHTML = "";
-    elRotuloSugestoes.textContent = "Perguntas sugeridas para " + marca;
+    elRotuloSugestoes.textContent =
+      "Perguntas sugeridas para " + marca + " (" + dados.sugestoes.length + ")";
     dados.sugestoes.forEach(function (texto) {
       const b = document.createElement("button");
       b.type = "button";
@@ -226,6 +250,7 @@ async function carregarSugestoes(marca) {
       elSugestoes.appendChild(b);
     });
     elBlocoSugestoes.hidden = dados.sugestoes.length === 0;
+    abrirSugestoes(true);
   } catch (e) {
     elBlocoSugestoes.hidden = true;
   }
@@ -333,6 +358,7 @@ async function perguntar(texto, marca) {
   if (!texto) return;
 
   elPergunta.dataset.ultima = texto;
+  abrirSugestoes(false);
   mostrarPergunta(texto);
   elPergunta.value = "";
   elBotao.disabled = true;

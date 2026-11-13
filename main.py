@@ -43,7 +43,7 @@ def listar_marcas():
 def listar_sugestoes(marca: str):
     entradas = buscar_conhecimento(marca)
     perguntas = [pergunta for (categoria, pergunta, resposta) in entradas]
-    return {"sugestoes": perguntas[:6]}
+    return {"sugestoes": perguntas}
 
 
 @app.post("/perguntar")

@@ -74,7 +74,7 @@ R: Certificado de Garantia da Zeiss preenchido, nota fiscal da compra, receituá
 P: A loja aceita devolução por arrependimento ou insatisfação?
 R: Não. A loja não aceita devolução por insatisfação, por arrependimento nem de produto sem defeito. A política de arrependimento vale para compras online e não para compras feitas em loja física.
 P: O que a loja faz quando o produto tem defeito?
-R: Se o produto estiver com defeito, a loja troca o produto. O reembolso só é feito quando a loja não tem o produto para trocar.
+R: Se o produto estiver com defeito, a loja encaminha para análise. Confirmado o defeito, a loja troca o produto. O reembolso só é feito quando a loja não tem o produto para trocar.
 
 ## Marca: Geral | Categoria: adaptação
 P: Qual o tempo de adaptação das lentes multifocais (progressivas)?
@@ -89,3 +89,5 @@ P: Por que a adaptação das lentes de visão simples costuma ser mais rápida?
 R: Elas têm uma única potência óptica, para corrigir a visão a uma determinada distância, de longe ou de perto. Por isso a adaptação tende a ser mais simples.
 P: O que pode fazer a adaptação das lentes de visão simples demorar mais?
 R: Mudança no grau, alteração do eixo do astigmatismo, diferença de grau entre os olhos e mudança no material, na curvatura ou no tamanho da lente.
+P: O cliente está com dor de cabeça usando o óculos novo, o que fazer?
+R: Oriente o cliente a voltar à ótica para conferência. A ótica revisa as lentes com o laboratório. Se o laboratório não encontrar problema, o cliente deve voltar ao oftalmologista para revisar o grau.
