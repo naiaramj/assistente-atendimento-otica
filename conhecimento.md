@@ -12,7 +12,7 @@ R: Certificado de Garantia oficial da HOYA preenchido, nota fiscal da compra, re
 
 ## Marca: Varilux | Categoria: garantia
 P: Qual o prazo da garantia de adaptação das lentes Varilux?
-R: 3 meses a partir da data da compra ou da receita médica. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
+R: 3 meses a partir da data da compra. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
 P: Qual a garantia de qualidade e material das lentes Varilux?
 R: 6 meses contra quebra espontânea e falha na ativação de lentes fotossensíveis.
 P: Qual a garantia contra defeitos e tratamentos das lentes Varilux?
@@ -22,7 +22,7 @@ R: Certificado de Garantia da Varilux preenchido, nota fiscal da compra, receitu
 
 ## Marca: Stock-Lux | Categoria: garantia
 P: Qual o prazo da garantia de adaptação das lentes Stock-Lux?
-R: 3 meses a partir da data da compra ou da receita médica. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
+R: 3 meses a partir da data da compra. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
 P: Qual a garantia de qualidade e material das lentes Stock-Lux?
 R: 6 meses contra quebra espontânea e falha na ativação de lentes fotossensíveis.
 P: Qual a garantia contra defeitos e tratamentos das lentes Stock-Lux?
@@ -32,7 +32,7 @@ R: Certificado de Garantia da Stock-Lux preenchido, nota fiscal da compra, recei
 
 ## Marca: Haytek | Categoria: garantia
 P: Qual o prazo da garantia de adaptação das lentes Haytek?
-R: 3 meses a partir da data da compra ou da receita médica. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
+R: 3 meses a partir da data da compra. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
 P: Qual a garantia de qualidade e material das lentes Haytek?
 R: 6 meses contra quebra espontânea e falha na ativação de lentes fotossensíveis.
 P: Qual a garantia contra defeitos e tratamentos das lentes Haytek?
@@ -42,7 +42,7 @@ R: Certificado de Garantia da Haytek preenchido, nota fiscal da compra, receitu�
 
 ## Marca: Space Plus | Categoria: garantia
 P: Qual o prazo da garantia de adaptação das lentes Space Plus?
-R: 3 meses a partir da data da compra ou da receita médica. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
+R: 3 meses a partir da data da compra. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
 P: Qual a garantia de qualidade e material das lentes Space Plus?
 R: 6 meses contra quebra espontânea e falha na ativação de lentes fotossensíveis.
 P: Qual a garantia contra defeitos e tratamentos das lentes Space Plus?
@@ -52,7 +52,7 @@ R: Certificado de Garantia da Space Plus preenchido, nota fiscal da compra, rece
 
 ## Marca: Kodak | Categoria: garantia
 P: Qual o prazo da garantia de adaptação das lentes Kodak?
-R: 3 meses a partir da data da compra ou da receita médica. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
+R: 3 meses a partir da data da compra. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
 P: Qual a garantia de qualidade e material das lentes Kodak?
 R: 6 meses contra quebra espontânea e falha na ativação de lentes fotossensíveis.
 P: Qual a garantia contra defeitos e tratamentos das lentes Kodak?
@@ -62,7 +62,7 @@ R: Certificado de Garantia da Kodak preenchido, nota fiscal da compra, receituá
 
 ## Marca: Zeiss | Categoria: garantia
 P: Qual o prazo da garantia de adaptação das lentes Zeiss?
-R: 3 meses a partir da data da compra ou da receita médica. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
+R: 3 meses a partir da data da compra. Se o cliente tiver dificuldade com a lente multifocal, sentir tontura ou precisar ajustar o grau, deve voltar à ótica. Depois da conferência das medidas ou de nova avaliação médica, o laboratório troca as lentes.
 P: Qual a garantia de qualidade e material das lentes Zeiss?
 R: 6 meses contra quebra espontânea e falha na ativação de lentes fotossensíveis.
 P: Qual a garantia contra defeitos e tratamentos das lentes Zeiss?

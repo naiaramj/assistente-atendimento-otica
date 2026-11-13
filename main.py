@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 from banco import (
@@ -25,7 +26,24 @@ class Feedback(BaseModel):
 
 @app.get("/")
 def raiz():
+    return FileResponse("index.html")
+
+
+@app.get("/status")
+def status():
     return {"status": "ok"}
+
+
+@app.get("/marcas")
+def listar_marcas():
+    return {"marcas": MARCAS}
+
+
+@app.get("/sugestoes")
+def listar_sugestoes(marca: str):
+    entradas = buscar_conhecimento(marca)
+    perguntas = [pergunta for (categoria, pergunta, resposta) in entradas]
+    return {"sugestoes": perguntas[:6]}
 
 
 @app.post("/perguntar")
